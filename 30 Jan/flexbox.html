@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flex</title>
+    <style>
+      .cont {
+        display: flex;
+        height: 300px;
+        border: 1px solid black;
+        /* flex-direction: row; */
+        /* flex-wrap: wrap; */
+        /* justify-content: center; */
+        /* align-items: center; */
+        /* gap: 100px; */
+      }
+      .box {
+        /* height: 100px;
+        width: 500px; */
+        flex-basis: 200px;
+      }
+      .box1 {
+        background-color: red;
+        /* order: 100; */
+        /* flex-grow: 10; */
+      }
+      .box2 {
+        background-color: yellow;
+        /* order: 1; */
+        /* flex-grow: 2; */
+        /* flex-shrink: 2; */
+        /* align-self: center; */
+      }
+      .box3 {
+        background-color: green;
+        /* order: 3; */
+        /* flex-grow: 3; */
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Flex -->
+    <div class="cont">
+      <div class="box box1">Box 1</div>
+      <div class="box box2">Box 2</div>
+      <div class="box box3">Box 3</div>
+    </div>
+  </body>
+</html>
