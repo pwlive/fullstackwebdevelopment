@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: #edf1fd;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+li {
+  list-style: none;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  background-color: rgb(18, 155, 155);
+  padding: 4px 10px;
+  cursor: pointer;
+  color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+  font-weight: 700;
+  width: fit-content;
+}
+
+button:hover {
+  background-color: white;
+  color: rgb(18, 155, 155);
+  border: 1px solid black;
+}
+
+header {
+  padding: 15px 0;
+}
+nav {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+}
+
+nav .logo {
+  font-weight: 700;
+  font-size: 25px;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  font-weight: 500;
+}
+
+nav ul li:hover {
+  text-decoration: underline;
+  font-weight: 900;
+}
+
+.search-field {
+  display: flex;
+  gap: 30px;
+}
+
+input {
+  padding: 4px 10px;
+}
+
+.hero-section {
+  display: flex;
+  align-items: center;
+}
+
+.hero-left-section {
+  width: 60%;
+  padding: 0 8%;
+}
+
+.hero-left-section h1 {
+  font-weight: 800;
+  font-size: 38px;
+  margin-bottom: 16px;
+}
+.hero-left-section h1 span {
+  color: rgb(18, 155, 155);
+  font-weight: 900;
+  background-color: #dfdfe0;
+  padding: 0 15px;
+}
+
+.hero-left-section p {
+  font-weight: 500;
+  font-size: 30px;
+}
+
+.hero-left-section p span {
+  font-size: 25px;
+  font-weight: 700;
+  color: rgb(18, 155, 155);
+}
+
+.hero-right-section {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.hero-right-section-btn {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.hero-right-section img {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+}
+
+footer {
+  font-weight: 600;
+  display: flex;
+  padding: 20px 0;
+  justify-content: space-around;
+}
+
+footer ul {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
