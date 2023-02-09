@@ -1,0 +1,162 @@
+body {
+  height: 100vh;
+  background-color: aquamarine;
+}
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+}
+
+.laptop_large,
+.laptop,
+.tablet,
+.mobile {
+  font-size: 40px;
+  text-align: center;
+  display: none;
+}
+
+/* media queries using max-width */
+
+/* @media screen and (max-width: 1440px) {
+    body {
+        background-color: brown;
+    }
+
+    .laptop_large {
+        display: block;
+    }
+}
+
+
+@media screen and (max-width: 1024px) {
+    body {
+        background-color: chartreuse;
+    }
+
+    .laptop_large {
+        display: none;
+    }
+
+    .laptop {
+        display: block;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    body {
+        background-color: darkorange;
+    }
+
+    .laptop_large {
+        display: none;
+    }
+
+    .laptop {
+        display: none;
+    }
+
+    .tablet {
+        display: block;
+    }
+}
+
+
+@media screen and (max-width: 425px) {
+    body {
+        background-color: darkolivegreen;
+    }
+
+    .laptop_large {
+        display: none;
+    }
+
+    .laptop {
+        display: none;
+    }
+
+    .tablet {
+        display: none;
+    }
+
+    .mobile {
+        display: block;
+    }
+} */
+
+/* media queries with min-width */
+
+@media screen and (min-width: 0px) {
+  body {
+    background-color: crimson;
+  }
+
+  .mobile {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 425px) {
+  body {
+    background-color: aqua;
+  }
+
+  .mobile {
+    display: none;
+  }
+
+  .tablet {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    background-color: darkgoldenrod;
+  }
+
+  .mobile {
+    display: none;
+  }
+
+  .tablet {
+    display: none;
+  }
+
+  .laptop {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  body {
+    background-color: forestgreen;
+  }
+
+  .mobile {
+    display: none;
+  }
+
+  .tablet {
+    display: none;
+  }
+
+  .laptop {
+    display: none;
+  }
+
+  .laptop_large {
+    display: block;
+  }
+}
+
+/* media queries using both min width and max width */
+
+/* 
+@media screen and (min-width:425px) and (max-width: 768px) {
+    body {
+        background-color: darkgrey;
+    }
+} */
