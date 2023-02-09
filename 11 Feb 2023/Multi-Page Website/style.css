@@ -1,0 +1,137 @@
+/* css reset */
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+body {
+  max-width: 1440px;
+  background-color: #f0f4f5;
+  overflow: hidden;
+  margin: auto;
+}
+
+/* designing the navigation menu */
+nav {
+  height: 15vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 5%;
+}
+
+/* designing the logo */
+nav img {
+  width: 150px;
+}
+
+/* desiging the navigation menu links */
+nav ul {
+  display: flex;
+  align-items: center;
+}
+
+nav ul li {
+  list-style: none;
+  margin-right: 50px;
+  font-weight: 600;
+}
+
+nav ul li:first-child {
+  font-weight: 700;
+  color: #20bc7e;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* designing the hero section */
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 85vh;
+}
+
+main section {
+  width: 50%;
+}
+
+.leftSection {
+  margin-left: 5%;
+  position: relative;
+}
+
+.topAngle {
+  width: 25px;
+}
+
+.leftSection h1 {
+  font-size: 70px;
+}
+
+.leftSection p {
+  color: #7c7c7c;
+  font-size: 18px;
+  margin: 20px 0;
+}
+
+.bottomAngle {
+  width: 25px;
+  position: absolute;
+  right: 25px;
+}
+
+.stethoscope {
+  position: absolute;
+  width: 90%;
+  top: -60px;
+  right: -25%;
+  z-index: -1;
+}
+
+.mouse {
+  position: absolute;
+  right: -30px;
+  bottom: 0;
+  width: 30px;
+}
+
+.leftSection button {
+  color: white;
+  border: none;
+  padding: 15px 40px;
+  border-radius: 40px;
+  background-color: #20bc7e;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+/* designing the right section */
+.greenBox,
+.yellowBox {
+  position: absolute;
+  right: 0;
+}
+
+.greenBox {
+  width: 35%;
+  bottom: 30px;
+}
+
+.yellowBox {
+  width: 30%;
+  bottom: 50px;
+}
+
+.doctor {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: 90%;
+}
