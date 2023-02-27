@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM Part 3</title>
+  </head>
+  <body>
+    <!-- Normal HTML -->
+    <h1>Hello Bacho - PWSKIILS</h1>
+    <p id="js"></p>
+    <button ondblclick="hey()" id="jss">Submit</button>
+    <!-- JavaScript -->
+    <script>
+      document.addEventListener("click", hello);
+      function hello() {
+        document.getElementById("js").innerText = "Namaste bacho";
+      }
+      function hey() {
+        document.getElementById("jss").innerText = "Namaste";
+        document.getElementById("jss").style.color = "red";
+        document.getElementById("jss").style.backgroundColor = "black";
+        document.getElementById("jss").style.padding = "16px";
+        document.getElementById("jss").style.border = "2px solid yellow";
+      }
+    </script>
+  </body>
+</html>
