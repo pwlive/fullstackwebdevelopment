@@ -1,0 +1,39 @@
+/* css reset */
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* designing the counter container */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  box-shadow: 0 0 5px black;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+/* designing the buttons */
+button {
+  padding: 5px 15px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#displayValue {
+  font-size: 25px;
+  padding: 5px 15px;
+  border: 1px solid black;
+}
